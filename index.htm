@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Picker</title>
+        <style>
+            body {
+                margin: auto;
+                padding: 34px;
+                color: whitesmoke;
+                background-color: rgb(46, 46, 47);
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                flex-grow: 1;
+            }
+
+            .box {
+                height: 94px;
+                width: 94px;
+                border-radius: 12px;
+                margin: 32px;
+                border: 2px solid white;
+            }
+
+            #red {
+                background: red;
+            }
+
+            #blue {
+                background: blue;
+            }
+
+            #black {
+                background: black;
+            }
+
+            #green {
+                background: green;
+            }
+
+            #yellow {
+                background: yellow;
+            }
+
+            #pink {
+                background: rgb(233, 28, 62);
+            }
+
+
+            .txt {
+                margin: 24px 0;
+                padding: 0 18px;
+                text-align: center;
+            }
+
+            .txt:hover {
+                color: aqua;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="txt">Color Scheme Switcher</h1>
+        <div class="container">
+            <div class="box" id="red"></div>
+            <div class="box" id="blue"></div>
+            <div class="box" id="black"></div>
+            <div class="box" id="green"></div>
+            <div class="box" id="yellow"></div>
+            <div class="box" id="pink"></div>
+            <h2 class="txt">Try clicking one of the colors above to change the background of this page!!</h2>
+        </div>
+        <script src="color.js"></script>
+    </body>
+
+</html>
