@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Current Time</title>
+        <style>
+            body {
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(76, 77, 77);
+                text-align: center;
+                color: black;
+            }
+
+            .container {
+                height: 198px;
+                width: 184px;
+                background-color: skyblue;
+                border: 2px solid aquamarine;
+                border-radius: 12px;
+                padding: 2rem 3rem;
+                box-shadow: 2px;
+                z-index: 1;
+            }
+
+            .time {
+                height: 3rem;
+                width: 9rem;
+                border: 1px solid yellow;
+                border-radius: 12px;
+                background-color: orange;
+                margin: 2rem auto;
+                color: white;
+                text-align: center;
+                align-content: center;
+                font-size: 1.6rem;
+                padding: 0.3rem;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Current time</h2>
+            <p>"It shows the current time"</p>
+            <div class="time">
+            </div>
+        </div>
+        <script src="time.js"></script>
+    </body>
+
+</html>
